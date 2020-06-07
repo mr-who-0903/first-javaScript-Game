@@ -1,0 +1,110 @@
+.btn-primary{
+    padding: 10px;
+    background: #841dd0;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+.btn-secondry{
+    cursor: pointer;
+    padding: 10px;
+    background: red;
+    color: white;
+    transition: 0.8s;
+}
+.container-1{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+.flex-box-container-1{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    padding: 10px;
+    
+}
+#flex-box-result{
+    padding-left: 200px;
+    padding-right: 200px;
+  
+}
+.btn-primary:hover{
+    color: #841dd0;
+    background: white;
+}
+.btn-secondry:hover{
+    color: red;
+    background: white;
+}
+.container-2{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#flex-box-container-2{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#flex-box-container-2 div{
+    padding: 10px;
+    transition: 0.6s;
+}
+/*
+#flex-box-container-2 div:hover{
+    box-shadow: 0px 5px 40px rgba(37, 50, 233, 1);
+}*/
+#rock:hover, #paper:hover, #scissor:hover{
+     box-shadow: 0px 5px 40px rgba(37, 50, 233, 1);
+}
+
+#computer_div_id{
+      box-shadow: 0px 5px 40px rgb(237, 13, 39);
+}
+#my_div_id{
+    box-shadow: 0px 5px 40px rgba(37, 50, 233, 1);
+}
+#winning_result_h2_id{
+    color: #19e221;
+    font-size: 200%;
+    cursor: default;
+}
+#loosing_result_h2_id{
+    color: #e83f3f;
+    font-size: 200%;
+    cursor: default;
+}
+#replay_button_id{
+    padding: 10px;
+    background: #13b51a;
+    color: white;
+    transition: 1s;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#replay_button_id:hover{
+    background: green;
+}
+
+
+
+
+
+
+
